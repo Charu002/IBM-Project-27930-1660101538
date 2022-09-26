@@ -1,0 +1,31 @@
+CREATE TABLE Users  
+(  
+Email varchar(255),
+UserName varchar(255),  
+rollnumber int,
+pwd varchar(255),  
+);
+
+UPDATE Users
+SET Username = Chris, email = chrisok@gmail.com, 
+WHERE Rollnumber= 1104 ;
+
+UPDATE Users
+SET email = randyspam@gmail.com, 
+WHERE Rollnumber= 1102 ;
+
+DELETE FROM Users WHERE UserName='Alfred simmons';
+
+DELETE FROM Customers WHERE Email='maxine04@gmail.com';
+
+Insert into Users(Email, UserName, rollnumber, pwd)
+VALUES(chrisok@gmail.com, 1104, Chris, open090)
+
+Insert into Users(Email, UserName, rollnumber, pwd)
+VALUES(alphabeta@gmail.com, 1101, Aiden, splokopen)
+
+Insert into Users(Email, UserName, rollnumber, pwd)
+VALUES(randyspam@gmail.com@gmail.com, 1102, Randy Orton, ortondagreat)
+
+Insert into Users(Email, UserName, rollnumber, pwd)
+VALUES(maxine04@gmail.com, 1103, Maxina stallone, maximaxi)
